@@ -1,0 +1,8 @@
+/*
+@author Gaetan1991
+@date Wed Oct 11 15:44:15 CEST 2017
+*/
+
+
+@@Primary Type Datatype lu.uni.lassy.excalibur.group01.excalibur.concepts.primarytypes.datatypes.dtMessage
+@description "Is a type of string/text"

@@ -14,5 +14,11 @@ import lu.uni.lassy.messir.libraries.string
 
 Environment Model {
 			
-}
+actor actTechnician role rnactTechnician cardinality[0 .. *] {
+			input interface inactTechnician {
+			}
+			output interface outactTechnician {
+			}
+		}
+	}
 }

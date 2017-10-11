@@ -1,0 +1,25 @@
+/*
+@author Gaetan1991
+@date Wed Oct 11 15:39:24 CEST 2017
+*/
+
+
+@@Use Case Subfunction lu.uni.lassy.excalibur.group01.excalibur.usecases.sfcheckSensor
+@description "checksIfTheSensors are properly installed"
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+here is a post condition
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

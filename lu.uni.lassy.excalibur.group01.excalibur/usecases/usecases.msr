@@ -14,6 +14,10 @@ import lu.uni.lassy.messir.libraries.string
 
 	Use Case Model {
 		
+	use case system subfunction sfcheckSensor() {
+			actor lu.uni.lassy.excalibur.group01.excalibur.environment.actTechnician[primary, active]
+			
+		}
 	}
 
 }

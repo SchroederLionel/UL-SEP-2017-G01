@@ -1,0 +1,12 @@
+/*
+@author Gaetan1991
+@date Wed Oct 11 15:38:07 CEST 2017
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.group01.excalibur.environment.actTechnician
+@description "This is the Technician in charge of the greenhouse."
+//input events
+
+//output events
+

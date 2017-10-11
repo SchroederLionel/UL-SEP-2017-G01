@@ -18,6 +18,9 @@ import lu.uni.lassy.messir.libraries.string
 			actor lu.uni.lassy.excalibur.group01.excalibur.environment.actTechnician[primary, active]
 			
 		}
+	use case system subfunction sfplating() {
+			actor lu.uni.lassy.excalibur.group01.excalibur.environment.actGardener[primary, active]
+		}
 	}
 
 }

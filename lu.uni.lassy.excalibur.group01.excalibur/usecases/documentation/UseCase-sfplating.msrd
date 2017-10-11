@@ -1,0 +1,25 @@
+/*
+@author Marc
+@date Wed Oct 11 16:35:15 CEST 2017
+*/
+
+
+@@Use Case Subfunction lu.uni.lassy.excalibur.group01.excalibur.usecases.sfplating
+@description "plating the plants"
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+Here is a preCondition
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

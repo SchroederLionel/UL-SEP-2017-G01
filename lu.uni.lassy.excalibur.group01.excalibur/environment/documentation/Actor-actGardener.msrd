@@ -1,0 +1,12 @@
+/*
+@author Marc
+@date Wed Oct 11 16:30:56 CEST 2017
+*/
+
+
+@@Actor lu.uni.lassy.excalibur.group01.excalibur.environment.actGardener
+@description "is a gardener."
+//input events
+
+//output events
+

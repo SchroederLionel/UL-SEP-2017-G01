@@ -227,6 +227,12 @@
     <semanticResources>platform:/resource/lu.uni.lassy.excalibur.standard.specification.libraries/library/documentation/PrimaryType-Primitive-ptString.msrd</semanticResources>
     <semanticResources>documentation/View-LionelSchroeder.msrd</semanticResources>
     <semanticResources>documentation/View-Marc.msrd</semanticResources>
+    <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Datatype-dtMessage.msrd</semanticResources>
+    <semanticResources>environment/documentation/Actor-actTechnician.msrd</semanticResources>
+    <semanticResources>usecases/documentation/UseCase-sfcheckSensor.msrd</semanticResources>
+    <semanticResources>environment/documentation/Actor-actGardener.msrd</semanticResources>
+    <semanticResources>concepts/primarytypes-datatypes/documentation/PrimaryType-Datatype-dtExecussion.msrd</semanticResources>
+    <semanticResources>usecases/documentation/UseCase-sfplating.msrd</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_LNZeMK6BEee9TrVpFqnNQA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_erHJNa6DEeeJYYudb3pOlA" name="Marc" repPath="#_erHJMK6DEeeJYYudb3pOlA">

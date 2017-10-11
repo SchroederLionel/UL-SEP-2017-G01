@@ -1,8 +1,0 @@
-
-@@view calendar-local-view-01
-@model Concept
-@level Local
-@sublevel Primary Datatype
-@number 2
-@description "calendar-local-view-01"
-@caption ""

@@ -5,7 +5,7 @@
 
 
 @@Use Case Subfunction lu.uni.lassy.excalibur.group01.excalibur.usecases.sfcheckSensor
-@description "checksIfTheSensors are properly installed"
+@description "checksIfTheSensors are properly installed CHECK IF IT WORKS"
 @protocolCondition
 "
 "

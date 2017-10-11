@@ -275,7 +275,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T43Jwq6SEeeLt7JC4tBe9A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_TvnuMa6SEeeLt7JC4tBe9A" fontName="Segoe UI" fontHeight="14"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TvnuMq6SEeeLt7JC4tBe9A" width="40" height="70"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TvnuMq6SEeeLt7JC4tBe9A" y="-4" width="40" height="70"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_T4tYwK6SEeeLt7JC4tBe9A" type="2002" element="_Tt0-dq6SEeeLt7JC4tBe9A">
           <children xmi:type="notation:Node" xmi:id="_T4tYw66SEeeLt7JC4tBe9A" type="5006"/>
@@ -289,13 +289,13 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T43Jyq6SEeeLt7JC4tBe9A"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_T43JxK6SEeeLt7JC4tBe9A" fontName="Segoe UI" fontHeight="14"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T43Jxa6SEeeLt7JC4tBe9A" width="150" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T43Jxa6SEeeLt7JC4tBe9A" x="30" y="28" width="150" height="50"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_T4tYxa6SEeeLt7JC4tBe9A"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_T4tYxq6SEeeLt7JC4tBe9A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_T4tYwa6SEeeLt7JC4tBe9A" fontName="Segoe UI" fontHeight="14"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4tYwq6SEeeLt7JC4tBe9A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4tYwq6SEeeLt7JC4tBe9A" x="100" y="-2"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_TvBRQq6SEeeLt7JC4tBe9A"/>
         <edges xmi:type="notation:Edge" xmi:id="_T5mwoK6SEeeLt7JC4tBe9A" type="4001" element="_Tt0-eq6SEeeLt7JC4tBe9A" source="_T43Jw66SEeeLt7JC4tBe9A" target="_TvnuMK6SEeeLt7JC4tBe9A">

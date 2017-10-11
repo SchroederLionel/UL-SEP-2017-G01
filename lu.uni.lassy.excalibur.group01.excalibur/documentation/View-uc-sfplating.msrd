@@ -1,0 +1,10 @@
+/*
+@author Marc
+@date Wed Oct 11 16:41:48 CEST 2017
+*/
+
+
+@@view uc-sfplating
+@model Use-Case lu.uni.lassy.excalibur.group01.excalibur.usecases.sfplating 
+@description ""
+@caption ""

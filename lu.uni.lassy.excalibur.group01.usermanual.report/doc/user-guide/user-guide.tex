@@ -1,5 +1,8 @@
 \chapter{Usage Guide}
+
 \label{chap:usage_guide}
+
+
 
 This section is aimed at describing the general use of the software, since it is
 \textbf{deployed, configured} and \textbf{run}.
@@ -28,13 +31,16 @@ These prodedures are splet in two groups:
 
 
 
-
 Each process has to be documented using the following textual description
 template \cite{armour01usecase} \textbf{BUT its content must be as low level as possible with actual values}:
+
 \vspace{0.5cm}
+
 \hrule
 \begin{lyxlist}{PC1}
+
 \small{
+
 \item [\textbf{Procedure:}] ProcessMissionOne
 \item [\textbf{Scope:}] Crisis Management System (\emph{CMS})
 \item [\textbf{Primary Actor}:] Coordinator John
@@ -82,16 +88,86 @@ different stages of the process while its is performed by the actor(s).
 
 \section{Multi-procedures}
 
+\subsection{Ask for new sensor}
 
-\subsection{MyMultiProcedure1}
-\ldots
+\vspace{0.5cm}
+\hrule
+\hfill \break
+\begin{lyxlist}{PC1}
+\small{
+\item [\textbf{Procedure:}] AskForNewSensor
+\item [\textbf{Scope:}] New Sensor demand to the manager.
+\item [\textbf{Primary Actor}:] Technician
+\item [\textbf{Secondary Actor(s)}:] Manager
+\item [\textbf{Goal:}] The intention that the technician can ask a new Sensor to
+the manager and to show to the manager the demand.
+\item [\textbf{Level}:] User-goal level
+\item [\textbf{Main~Success~Scenario}]:\\
+1. \emph{Gardner} complets the diffrent text fields with there given
+information and presses the button \emph{push to the manager}. 
 
-\subsection{MyMultiProcedure2}
-\ldots
+2. \emph{System} pushes the information to the Manager Sensor Table on the
+ managerscreen. \\
+3. \emph{System.NoTA} alerts \emph{Manger} that a request has been send from
+the \emph{Gardner}.\\
+4. \emph{Manager} can contact now the company of the asked sensor for a new
+one.\\
+\item [\textbf{Extensions}]:\\
+2.a  \emph{Manager} sends to the Gardner a message of
+validation or not.\\
+}
+\end{lyxlist}
+\hfill \break
+\hrule
+\vspace{0.5cm}
 
 
-\subsection{MyMultiProcedure3}
-\ldots
+\subsection{Sign In}
+\vspace{0.5cm}
+\hrule
+\begin{lyxlist}{PC2}
+\small{
+\item [\textbf{Procedure:}] SignIn
+\item [\textbf{Scope:}] Identified usage of the software
+\item [\textbf{Primary Actor}:] User
+\item [\textbf{Secondary Actor(s)}:] Greenhouse Software GS
+\item [\textbf{Goal:}] Show the user GUI to manage the garden
+\item [\textbf{Level}:] User-goal level
+\item [\textbf{Main~Success~Scenario}]:\\
+1. \emph{User} enters a username and password combination and signs in\\
+2. \emph{GS} looks up the user rights defined by the administrator\\
+3. \emph{GS} now show the correct Graphical User Interface (GUI) \emph{(Gardener, Technician, Manager or Administrator)} able to control the garden.
+
+\item [\textbf{Extensions}]:\\
+1.a Wrong username and password combination\\
+\hspace*{0.5cm} 1.a.1 \emph{GS} notifies the \emph{User} that the entered information are wrong\\
+\hspace*{0.5cm} \textbf{procedure recontinues at step 1}
+}
+\end{lyxlist}
+\hrule
+\vspace{0.5cm}
+
+
+
+\subsection{Adding data}
+\vspace{0.5cm}
+\hrule
+\begin{lyxlist}{PC3}
+\small{
+\item [\textbf{Procedure:}] Adding data
+\item [\textbf{Scope:}] Adding data to a datalist
+\item [\textbf{Primary Actor}:] Manager
+\item [\textbf{Secondary Actor(s)}:] Greenhouse Software GS
+\item [\textbf{Goal:}] Adding a task to the schedule
+\item [\textbf{Level}:] User-goal level
+\item [\textbf{Main~Success~Scenario}]:\\
+1. \emph{User} presses the “add” button\\
+2. \emph{GS} adds the task to the schedule\\
+}
+\end{lyxlist}
+\hrule
+\vspace{0.5cm}
+
 
 
 

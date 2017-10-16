@@ -2,47 +2,119 @@
 \label{chap:introduction}
 
 \section{Scope}
+
 This user manual will explain you how to use our software efficiently. It will
 show you how the different sensors interact with each other and how statistics
 are used to schedule tasks. It will also show you how you can properly interact
 with the software. It will be useful reference material during the use of the
-software. This document will not show you how to integrate the software in your specific environment.
+Software. This document will not show you how to integrate the software in your
+specific environment. Thus not showing you how to create and implement databases
+nor does it show you how to care for the different plants. This document wills
+also not show you how to properly install the sensors.
 
 
 \section{Purpose}
+
 This document defines all essential information for the user to use the software application. 
-The system functions are shown step by step for the user. In case of a crisis the user can look 
-up in this file with the given error code which action has to be taken accordingly. 
+The system functions are shown step by step for the user. In case of a
+\textbf{\emph{\glspl{crisis}}} the user can look up in this file with the
+given error code which action has to be taken accordingly.
 In addition the definition of different icons will be shown and explained.
 
 
 
+
+
 \section{Intended audience}
-The software is intended to be primarily used in the enterprise sector more specifically the agriculture sector. The manual is will help the people concerned with operating the software correctly.
+
+The software is intended to be primarily used in the enterprise sector more
+specially the agriculture sector. The manual  will help the people concerned
+with operating the software correctly. The gardener can use this document to
+understand how he can interact with the system and retrieve information about
+the inventory. The manager can learn how to add tasks to the schedule correctly,
+how to access camera. The technician will know where to look for problems with
+the sensors as well as what alerts he can expect. The gardener and the
+technician can find information about the schedule and what task can be given to
+the respecting personnel.
 
 \section{\mysystemname}
-Brief overview of the software application domain and main purpose.
-This is on purpose wrong. Its a testsss.
+
+The software is used in agriculture/gardening that means planting and harvesting
+plants. The main purpose is to do so in the most efficient way by using
+different hardware like sensors. Basically the software allows the user to check
+if the soil needs nutrition or water to allow for a optimal growing of the
+plants. Also the software gives tasks to the gardner so that no mistakes are
+made by the individual human. The software creates statistics with the data
+gather by the sensors about the plants and their environment. The software gives
+insight to the results achieved with varying environmental conditions.
 
 
 \subsection{Actors \& Functionalities}
-Overview of all the \textbf{\emph{\glspl{actor}}} interacting with the software
-being them either humans (called end-users in the standard
-\cite{IEEE-2001-userdocumentation}) or not. For each actor, describe the main
-software functions that are offered to him. Structure of this sub-section MUST
-be by actor/functionalities.
+
+The \textbf{gardener} is in charge of planting and retrieving the plants and
+updating the storage if any crops are used. He also gets notified if any plant
+needs water or additional minerals in the soil. The gardner uses other actors
+like the ph meter and the ec meter to check the water.\break
+
+\noindent The \textbf{technician} observes if any sensors are damaged or must be
+recalibrated. He gets notified if any sensor is defect or the environmental
+system has crashed to reboot it.The technician can request more sensors.\break
+
+\noindent The \textbf{manager} keeps track of the storage of crops. If the
+storage is depleting, he calls the delivery firm to buy more. In case of a crisis that
+means by intrusion or natural damage like fire he will be alerted and can then,
+if necessary, call the emergency services.\break
+
+\noindent The \textbf{director} gets a report every month which consists of how
+many crops have been used, how many plants were harvested or have been removed. In a case
+of a crisis the director also gets automatically notified like the
+manager.\break
+
+\noindent The non human Actors:\hfill \break\break
+The \textbf{temperature sensor} is in charge to read the temperature and to
+communicate the data to the computer.\hfill \break
+
+\noindent The \textbf{humidity sensor} is in charge to collect the humidity
+percentage in the soil and communicate it to the computer.\break
+
+\noindent The \textbf{light sensor} is in charge to collect the light density
+ inside and outside the greenhouse and to communicate the data to the computer.\break
+
+\noindent The \textbf{motion sensor} is  in charge of the security of the
+greenhouse. The sensors captures any motion by human or inhuman to the computer.\break
+
+\noindent The \textbf{ph meter} is used to check if the water has the perfect ph
+scale for the plants and has to communicate the data to the computer.\break
+
+\noindent The \textbf{Ec meter} is in charge the check if the nutrition inside
+the water tank is good.\break
+
+\noindent The \textbf{security camera} is recording what is happening inside the
+greenhouse which is displayed in live on the website.\break
+
+\noindent The mouse and keyboard are used to control and give input to the
+computer and the web page.
+
+\noindent The display is there to display the data webside and so on.
+
+\noindent The heater is used to warm up the different rooms to a given
+temperature.
+
+\noindent The windows can automatically be opened to give fresh air and cool
+down the temperature.
+
 
 
 \subsection{Operating environment}
 Brief overview of the infrastructure on which the software is deployed and used.
+Controlling part of the software will run on a windows 10 Pro environment while
+created statistics will be stored in a SQL database. Data from the sensors will
+also be stored in a SQL database. The website can be accessed from a
+phone/tablet or computer. Windows 10 is used for its GUI so it is easier to use
+for the people using the software.
 
 \section{Document structure}  
 Information on how this document is organised and it is expected to be
 used. Recommendations on which members of the audience
 should consult which sections of the document, and explanations about the used
 notation (i.e. description of formats and conventions) must also be provided.
-
-
-
-
-
